@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Top 5 Betting Sites BD</title>
+  <title>FreeBet</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -71,43 +71,64 @@
     .telegram-box {
       display: flex;
       gap: 10px;
-      margin-bottom: 18px;
+      margin-bottom: 14px;
     }
-
     .tg-btn {
       flex: 1;
       background: linear-gradient(135deg, #2AABEE, #229ED9);
       color: white;
       text-decoration: none;
-      padding: 13px 10px;
+      padding: 12px 10px;
       border-radius: 12px;
-      text-align: center;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
-      box-shadow: 0 4px 14px rgba(42, 171, 238, 0.4);
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
+      gap: 7px;
+      box-shadow: 0 4px 14px rgba(42, 171, 238, 0.4);
     }
-    .tg-btn svg { width: 20px; height: 20px; fill: white; }
+    .tg-btn svg { width: 18px; height: 18px; fill: white; }
+
+    .tab-box {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .tab-btn {
+      flex: 1;
+      padding: 12px 8px;
+      border-radius: 12px;
+      border: 2px solid rgba(255,215,0,0.4);
+      background: rgba(0,0,0,0.35);
+      color: #e0c878;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .tab-btn.active {
+      background: linear-gradient(135deg, #c9a227, #e6c35c);
+      color: #1a120b;
+      border-color: #ffd700;
+      box-shadow: 0 4px 14px rgba(201, 162, 39, 0.45);
+    }
 
     .header {
       text-align: center;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
     .header h1 {
-      font-size: 23px;
+      font-size: 22px;
       font-weight: 700;
       color: #ffd700;
       text-shadow: 0 2px 12px rgba(0,0,0,0.55);
     }
 
-    /* Logo Slider */
     .logo-slider {
       width: 100%;
       overflow: hidden;
-      margin: 0 auto 18px;
+      margin: 0 auto 16px;
       border-radius: 16px;
       background: rgba(0,0,0,0.25);
       padding: 12px 0;
@@ -117,17 +138,15 @@
       display: flex;
       gap: 14px;
       width: max-content;
-      animation: slide 30s linear infinite;
+      animation: slide 22s linear infinite;
     }
     .logo-track:hover { animation-play-state: paused; }
-
     .logo-track a {
       flex-shrink: 0;
-      width: 64px;
-      height: 64px;
+      width: 62px;
+      height: 62px;
       border-radius: 14px;
       overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
       border: 2px solid rgba(255, 215, 0, 0.4);
       background: #111;
     }
@@ -137,18 +156,16 @@
       object-fit: cover;
       display: block;
     }
-
     @keyframes slide {
       0% { transform: translateX(0); }
       100% { transform: translateX(-50%); }
     }
 
-    /* Cards */
     .card {
       background: #e8f5e9;
       border-radius: 16px;
       padding: 14px 16px;
-      margin-bottom: 13px;
+      margin-bottom: 12px;
       display: block;
       box-shadow: 0 4px 18px rgba(0,0,0,0.3);
       text-decoration: none;
@@ -161,21 +178,18 @@
       box-shadow: 0 8px 28px rgba(46, 125, 50, 0.25);
       border-color: #2e7d32;
     }
-
     .card-top {
       display: flex;
       align-items: center;
       gap: 14px;
     }
-
     .logo-box {
-      width: 56px;
-      height: 56px;
+      width: 54px;
+      height: 54px;
       border-radius: 14px;
       overflow: hidden;
       flex-shrink: 0;
       background: #111;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     }
     .logo-box img {
       width: 100%;
@@ -183,7 +197,6 @@
       object-fit: cover;
       display: block;
     }
-
     .info { flex: 1; min-width: 0; }
     .info h3 {
       font-size: 16px;
@@ -239,9 +252,12 @@
       color: white;
     }
 
+    .section { display: none; }
+    .section.active { display: block; }
+
     .footer {
       text-align: center;
-      margin-top: 22px;
+      margin-top: 20px;
       font-size: 13px;
       font-weight: 600;
       color: #ffd700;
@@ -252,17 +268,17 @@
 <body>
 
   <div class="coin" style="top:5%; left:6%; width:28px; height:28px;"></div>
-  <div class="coin" style="top:12%; right:8%; width:22px; height:22px;"></div>
-  <div class="coin" style="top:25%; left:10%; width:30px; height:30px;"></div>
-  <div class="coin" style="top:40%; right:12%; width:24px; height:24px;"></div>
-  <div class="coin" style="top:55%; left:7%; width:26px; height:26px;"></div>
-  <div class="coin" style="top:70%; right:9%; width:20px; height:20px;"></div>
-  <div class="coin" style="top:85%; left:15%; width:28px; height:28px;"></div>
+  <div class="coin" style="top:15%; right:8%; width:22px; height:22px;"></div>
+  <div class="coin" style="top:30%; left:10%; width:26px; height:26px;"></div>
+  <div class="coin" style="top:50%; right:11%; width:24px; height:24px;"></div>
+  <div class="coin" style="top:70%; left:8%; width:20px; height:20px;"></div>
+  <div class="coin" style="top:85%; right:14%; width:28px; height:28px;"></div>
 
   <div class="container">
 
+    <!-- Telegram -->
     <div class="telegram-box">
-      <a href="https://t.me/+5bP8-8Ai2SUyODZl" class="tg-btn" target="_blank" rel="noopener">
+      <a href="https://t.me/+zju4tuK3LrA0ZmU1" class="tg-btn" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.834.941z"/></svg>
         Channel
       </a>
@@ -272,122 +288,238 @@
       </a>
     </div>
 
+    <!-- Tabs -->
+    <div class="tab-box">
+      <button class="tab-btn active" onclick="showTab('betting')">Betting Sites</button>
+      <button class="tab-btn" onclick="showTab('earn')">Free Earn Sites</button>
+    </div>
+
     <div class="header">
-      <h1>Bangladesh Top 5 Betting Sites</h1>
+      <h1 id="pageTitle">Top 5 Betting Sites</h1>
     </div>
 
-    <!-- Logo Slider -->
-    <div class="logo-slider">
-      <div class="logo-track">
-        <a href="https://111f222.com/?dl=dxuhqb" target="_blank" rel="noopener"><img src="f222.jpg" alt="F222"></a>
-        <a href="https://www.f999.one/?dl=3sb91n" target="_blank" rel="noopener"><img src="f999.jpg" alt="F999"></a>
-        <a href="https://www.f111game.com/?dl=1pytz0" target="_blank" rel="noopener"><img src="f111.jpg" alt="F111"></a>
-        <a href="https://www.g777.love/?dl=8n7o06" target="_blank" rel="noopener"><img src="g777.jpg" alt="G777"></a>
-        <a href="http://stake.com/?c=fhqgNNha" target="_blank" rel="noopener"><img src="stake.jpg" alt="Stake"></a>
-        
-        <!-- Duplicate for smooth loop -->
-        <a href="https://111f222.com/?dl=dxuhqb" target="_blank" rel="noopener"><img src="f222.jpg" alt="F222"></a>
-        <a href="https://www.f999.one/?dl=3sb91n" target="_blank" rel="noopener"><img src="f999.jpg" alt="F999"></a>
-        <a href="https://www.f111game.com/?dl=1pytz0" target="_blank" rel="noopener"><img src="f111.jpg" alt="F111"></a>
-        <a href="https://www.g777.love/?dl=8n7o06" target="_blank" rel="noopener"><img src="g777.jpg" alt="G777"></a>
-        <a href="http://stake.com/?c=fhqgNNha" target="_blank" rel="noopener"><img src="stake.jpg" alt="Stake"></a>
+    <!-- ===================== BETTING ===================== -->
+    <div id="betting" class="section active">
+
+      <div class="logo-slider">
+        <div class="logo-track">
+          <a href="https://111f222.com/?dl=dxuhqb" target="_blank"><img src="f222.jpg" alt="F222"></a>
+          <a href="https://f999.pro/?dl=3sb91n" target="_blank"><img src="f999.jpg" alt="F999"></a>
+          <a href="https://www.f111game.com/?dl=1pytz0" target="_blank"><img src="f111.jpg" alt="F111"></a>
+          <a href="https://www.g777.love/?dl=8n7o06" target="_blank"><img src="g777.jpg" alt="G777"></a>
+          <a href="http://stake.com/?c=fhqgNNha" target="_blank"><img src="stake.jpg" alt="Stake"></a>
+          <!-- duplicate -->
+          <a href="https://111f222.com/?dl=dxuhqb" target="_blank"><img src="f222.jpg" alt="F222"></a>
+          <a href="https://f999.pro/?dl=3sb91n" target="_blank"><img src="f999.jpg" alt="F999"></a>
+          <a href="https://www.f111game.com/?dl=1pytz0" target="_blank"><img src="f111.jpg" alt="F111"></a>
+          <a href="https://www.g777.love/?dl=8n7o06" target="_blank"><img src="g777.jpg" alt="G777"></a>
+          <a href="http://stake.com/?c=fhqgNNha" target="_blank"><img src="stake.jpg" alt="Stake"></a>
+        </div>
       </div>
+
+      <a href="https://111f222.com/?dl=dxuhqb" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="f222.jpg" alt="F222"></div>
+          <div class="info">
+            <h3>F222</h3>
+            <p>125% Welcome Bonus up to 500,000 BDT</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">dxuhqb</div>
+          <button class="copy-btn" onclick="copyCode(this,'dxuhqb')">Copy</button>
+        </div>
+      </a>
+
+      <a href="https://f999.pro/?dl=3sb91n" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="f999.jpg" alt="F999"></div>
+          <div class="info">
+            <h3>F999</h3>
+            <p>150% Welcome Bonus up to 600,000 BDT</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">3sb91n</div>
+          <button class="copy-btn" onclick="copyCode(this,'3sb91n')">Copy</button>
+        </div>
+      </a>
+
+      <a href="https://www.f111game.com/?dl=1pytz0" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="f111.jpg" alt="F111"></div>
+          <div class="info">
+            <h3>F111</h3>
+            <p>100% Welcome Bonus up to 300,000 BDT</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">1pytz0</div>
+          <button class="copy-btn" onclick="copyCode(this,'1pytz0')">Copy</button>
+        </div>
+      </a>
+
+      <a href="https://www.g777.love/?dl=8n7o06" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="g777.jpg" alt="G777"></div>
+          <div class="info">
+            <h3>G777</h3>
+            <p>200% Welcome Bonus up to 400,000 BDT</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">8n7o06</div>
+          <button class="copy-btn" onclick="copyCode(this,'8n7o06')">Copy</button>
+        </div>
+      </a>
+
+      <a href="http://stake.com/?c=fhqgNNha" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="stake.jpg" alt="Stake"></div>
+          <div class="info">
+            <h3>Stake</h3>
+            <p>200% Welcome Bonus up to 1,000,000 BDT</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">fhqgNNha</div>
+          <button class="copy-btn" onclick="copyCode(this,'fhqgNNha')">Copy</button>
+        </div>
+      </a>
+
+      <div class="footer">WELCOME BONUS up to 1,000,000 BDT • bKash / Nagad / USDT • Fast Payout</div>
     </div>
 
-    <!-- F222 -->
-    <a href="https://111f222.com/?dl=dxuhqb" class="card" target="_blank" rel="noopener">
-      <div class="card-top">
-        <div class="logo-box"><img src="f222.jpg" alt="F222"></div>
-        <div class="info">
-          <h3>F222</h3>
-          <p>125% Welcome Bonus up to ৳500,000</p>
+    <!-- ===================== FREE EARN ===================== -->
+    <div id="earn" class="section">
+
+      <div class="logo-slider">
+        <div class="logo-track">
+          <a href="https://bitcoinaliens.com/?ref=5091498&game=7&pf=2" target="_blank"><img src="bitcoincashgiveaway.jpg" alt="BitcoinCashGiveaway"></a>
+          <a href="https://bitcoinaliens.com/?ref=5091498&game=8&pf=2" target="_blank"><img src="litcoingiveaway.jpg" alt="LitcoinGiveaway"></a>
+          <a href="https://freecash.com/r/Freebet24" target="_blank"><img src="freecash.jpg" alt="FreeCash"></a>
+          <a href="https://cointiply.mobi/pYyK4N" target="_blank"><img src="cointiply.jpg" alt="Cointiply"></a>
+          <a href="https://www.coinpayu.com/?r=Marjia1122" target="_blank"><img src="coinpayu.jpg" alt="Coinpayu"></a>
+          <!-- duplicate -->
+          <a href="https://bitcoinaliens.com/?ref=5091498&game=7&pf=2" target="_blank"><img src="bitcoincashgiveaway.jpg" alt="BitcoinCashGiveaway"></a>
+          <a href="https://bitcoinaliens.com/?ref=5091498&game=8&pf=2" target="_blank"><img src="litcoingiveaway.jpg" alt="LitcoinGiveaway"></a>
+          <a href="https://freecash.com/r/Freebet24" target="_blank"><img src="freecash.jpg" alt="FreeCash"></a>
+          <a href="https://cointiply.mobi/pYyK4N" target="_blank"><img src="cointiply.jpg" alt="Cointiply"></a>
+          <a href="https://www.coinpayu.com/?r=Marjia1122" target="_blank"><img src="coinpayu.jpg" alt="Coinpayu"></a>
         </div>
-        <span class="arrow">›</span>
       </div>
-      <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
-        <span class="promo-label">Promo Code</span>
-        <div class="promo-code">dxuhqb</div>
-        <button class="copy-btn" onclick="copyCode(this,'dxuhqb')">Copy</button>
-      </div>
-    </a>
 
-    <!-- F999 -->
-    <a href="https://www.f999.one/?dl=3sb91n" class="card" target="_blank" rel="noopener">
-      <div class="card-top">
-        <div class="logo-box"><img src="f999.jpg" alt="F999"></div>
-        <div class="info">
-          <h3>F999</h3>
-          <p>150% Welcome Bonus up to ৳600,000</p>
+      <a href="https://bitcoinaliens.com/?ref=5091498&game=7&pf=2" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="bitcoincashgiveaway.jpg" alt="BitcoinCashGiveaway"></div>
+          <div class="info">
+            <h3>BitcoinCashGiveaway</h3>
+            <p>WELCOME BONUS up to $540 + Free BCH</p>
+          </div>
+          <span class="arrow">›</span>
         </div>
-        <span class="arrow">›</span>
-      </div>
-      <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
-        <span class="promo-label">Promo Code</span>
-        <div class="promo-code">3sb91n</div>
-        <button class="copy-btn" onclick="copyCode(this,'3sb91n')">Copy</button>
-      </div>
-    </a>
-
-    <!-- F111 -->
-    <a href="https://www.f111game.com/?dl=1pytz0" class="card" target="_blank" rel="noopener">
-      <div class="card-top">
-        <div class="logo-box"><img src="f111.jpg" alt="F111"></div>
-        <div class="info">
-          <h3>F111</h3>
-          <p>100% Welcome Bonus up to ৳300,000</p>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">BCHGIVE</div>
+          <button class="copy-btn" onclick="copyCode(this,'7&pf=2')">Copy</button>
         </div>
-        <span class="arrow">›</span>
-      </div>
-      <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
-        <span class="promo-label">Promo Code</span>
-        <div class="promo-code">1pytz0</div>
-        <button class="copy-btn" onclick="copyCode(this,'1pytz0')">Copy</button>
-      </div>
-    </a>
+      </a>
 
-    <!-- G777 -->
-    <a href="https://www.g777.love/?dl=8n7o06" class="card" target="_blank" rel="noopener">
-      <div class="card-top">
-        <div class="logo-box"><img src="g777.jpg" alt="G777"></div>
-        <div class="info">
-          <h3>G777</h3>
-          <p>200% Welcome Bonus up to ৳400,000</p>
+      <a href="https://bitcoinaliens.com/?ref=5091498&game=8&pf=2" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="litcoingiveaway.jpg" alt="LitcoinGiveaway"></div>
+          <div class="info">
+            <h3>LitcoinGiveaway</h3>
+            <p>WELCOME BONUS up to $540 + Free LTC</p>
+          </div>
+          <span class="arrow">›</span>
         </div>
-        <span class="arrow">›</span>
-      </div>
-      <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
-        <span class="promo-label">Promo Code</span>
-        <div class="promo-code">8n7o06</div>
-        <button class="copy-btn" onclick="copyCode(this,'8n7o06')">Copy</button>
-      </div>
-    </a>
-
-    <!-- Stake -->
-    <a href="http://stake.com/?c=fhqgNNha" class="card" target="_blank" rel="noopener">
-      <div class="card-top">
-        <div class="logo-box"><img src="stake.jpg" alt="Stake"></div>
-        <div class="info">
-          <h3>Stake</h3>
-          <p>200% Welcome Bonus up to ৳10,00,000</p>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">LTCGIVE</div>
+          <button class="copy-btn" onclick="copyCode(this,'8&pf=2')">Copy</button>
         </div>
-        <span class="arrow">›</span>
-      </div>
-      <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
-        <span class="promo-label">Promo Code</span>
-        <div class="promo-code">fhqgNNha</div>
-        <button class="copy-btn" onclick="copyCode(this,'fhqgNNha')">Copy</button>
-      </div>
-    </a>
+      </a>
 
+      <a href="https://freecash.com/r/Freebet24" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="freecash.jpg" alt="FreeCash"></div>
+          <div class="info">
+            <h3>FreeCash</h3>
+            <p>WELCOME BONUS up to $1260 + Offers</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">Freebet24</div>
+          <button class="copy-btn" onclick="copyCode(this,'Freebet24')">Copy</button>
+        </div>
+      </a>
 
+      <a href="https://cointiply.mobi/pYyK4N" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="cointiply.jpg" alt="Cointiply"></div>
+          <div class="info">
+            <h3>Cointiply</h3>
+            <p>WELCOME BONUS up to $510 + PTC + Faucet</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">pYyK4N</div>
+          <button class="copy-btn" onclick="copyCode(this,'pYyK4N')">Copy</button>
+        </div>
+      </a>
 
-    <div class="footer">
-      WELCOME BONUS up to ৳10,00,000 • bKash / Nagad / USDT • Fast Payout
+      <a href="https://www.coinpayu.com/?r=Marjia1122" class="card" target="_blank">
+        <div class="card-top">
+          <div class="logo-box"><img src="coinpayu.jpg" alt="Coinpayu"></div>
+          <div class="info">
+            <h3>Coinpayu</h3>
+            <p>WELCOME BONUS up to $520 + Daily PTC</p>
+          </div>
+          <span class="arrow">›</span>
+        </div>
+        <div class="promo-row" onclick="event.preventDefault();event.stopPropagation();">
+          <span class="promo-label">Promo Code</span>
+          <div class="promo-code">Marjia1122</div>
+          <button class="copy-btn" onclick="copyCode(this,'Marjia1122')">Copy</button>
+        </div>
+      </a>
+
+      <div class="footer">FREE EARN SITES • No Investment • Daily Income up to $7000</div>
     </div>
 
   </div>
 
   <script>
+    function showTab(tab) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      
+      document.getElementById(tab).classList.add('active');
+      
+      if(tab === 'betting') {
+        document.querySelectorAll('.tab-btn')[0].classList.add('active');
+        document.getElementById('pageTitle').innerText = 'Top 5 Betting Sites';
+      } else {
+        document.querySelectorAll('.tab-btn')[1].classList.add('active');
+        document.getElementById('pageTitle').innerText = 'Top 5 Free Earning Sites';
+      }
+    }
+
     function copyCode(btn, code) {
       navigator.clipboard.writeText(code).then(() => {
         btn.innerText = "Copied!";
