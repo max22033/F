@@ -53,7 +53,7 @@
       pointer-events: none;
     }
     .coin::after {
-      content: "৳";
+      content: "$";
       position: absolute;
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
@@ -291,11 +291,11 @@
     <!-- Tabs -->
     <div class="tab-box">
       <button class="tab-btn active" onclick="showTab('betting')">Betting Sites</button>
-      <button class="tab-btn" onclick="showTab('earn')">Free Earn Sites</button>
+      <button class="tab-btn" onclick="showTab('earn')">Click Here • Claim Now $8,000 Free</button>
     </div>
 
     <div class="header">
-      <h1 id="pageTitle">Top 5 Betting Sites</h1>
+      <h1 id="pageTitle">Top 5 Best Betting Sites</h1>
     </div>
 
     <!-- ===================== BETTING ===================== -->
@@ -499,7 +499,7 @@
         </div>
       </a>
 
-      <div class="footer">FREE EARN SITES • No Investment • Daily Income up to $7000</div>
+      <div class="footer">FREE EARN SITES • No Investment • Daily Income up to $8,000</div>
     </div>
 
   </div>
@@ -513,10 +513,10 @@
       
       if(tab === 'betting') {
         document.querySelectorAll('.tab-btn')[0].classList.add('active');
-        document.getElementById('pageTitle').innerText = 'Top 5 Betting Sites';
+        document.getElementById('pageTitle').innerText = 'Top 5 Best Betting Sites';
       } else {
         document.querySelectorAll('.tab-btn')[1].classList.add('active');
-        document.getElementById('pageTitle').innerText = 'Top 5 Free Earning Sites';
+        document.getElementById('pageTitle').innerText = 'Top 5 Best Free Earning Sites';
       }
     }
 
